@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>Hugo's Blog - Types in Julia</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="/">Hugo's Blog</a></h1></hgroup>
+          <nav><ul>
+                <li><a href="/pages/my-super-post.html"  aria-current="page" >Types in Julia</a></li>
+                <li><a href="/pages/post.html" >This is a page</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>Types in Julia</h2>
+    </header>
+    
+
+    <h1>Julia Types</h1>
+<h2>Julia Inner constructors once and for all</h2>
+<p>Confusion surrounding the <code>new</code> keyword</p>
+<h2>Parametric Types</h2>
+<ul>
+<li>You choose the types Supertype and then can pick and choose for instance </li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">struct</span> <span class="kt">Point</span><span class="p">{</span><span class="kt">T</span><span class="w"> </span><span class="o">&lt;:</span><span class="w"> </span><span class="kt">Real</span><span class="p">}</span>
+<span class="w">    </span><span class="n">x</span><span class="o">::</span><span class="kt">T</span>
+<span class="w">    </span><span class="n">y</span><span class="o">::</span><span class="kt">T</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<h1>Julia regex</h1>
+<p><code>ismatch(regex, string)</code></p>
+<h1>Graphs</h1>
+<ul>
+<li>Graphs.jl exploration </li>
+</ul>
+<h1>Stats</h1>
+<p><a href="https://datawookie.dev/blog/2015/10/monthofjulia-day-28-hypothesis-tests/">An article for reference</a></p>
+
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>
