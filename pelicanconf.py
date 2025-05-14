@@ -4,10 +4,11 @@
 AUTHOR = 'Hugo'
 SITENAME = "Hugo's Blog"
 SITEURL = ''
+THEME = 'simple'
 
 PATH = 'content'
 
-TIMEZONE = 'Asia/Shanghai'
+TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
 
@@ -20,9 +21,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+         ('GitHub', 'https://github.com/TaoHuaLiu/'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -30,5 +29,14 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
+# I've stopped fighting just create a goddamn folder in output and hard link to it
+# Do not treat 'static_pages' as a page source
+#PAGE_EXCLUDES = ['static_pages']
+
+# Serve files from 'static_pages' as-is (no transformation)
+# STATIC_PATHS = ['static_pages']
+
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
+
