@@ -7,4 +7,4 @@ Authors: Hugo
 Summary: Schedules
 
 # A heading
-[Exercice 3-1](https://taohualiu.github.io/static_pages/optimisation-julia3.html)
+[Exercice 3-1](https://taohualiu.github.io/static/optimisation-julia3.html)

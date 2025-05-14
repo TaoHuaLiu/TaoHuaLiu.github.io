@@ -4,7 +4,7 @@
 AUTHOR = 'Hugo'
 SITENAME = "Hugo's Blog"
 SITEURL = ''
-THEME = 'simple'
+THEME = 'graymill'
 
 PATH = 'content'
 
