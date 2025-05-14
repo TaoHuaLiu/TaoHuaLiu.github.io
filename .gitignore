@@ -1,0 +1,9 @@
+*.pyc
+*.ps1
+*.csh
+*.fish
+*.csh
+*.pyc
+./bin
+./lib
+./include
