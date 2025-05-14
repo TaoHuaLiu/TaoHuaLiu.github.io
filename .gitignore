@@ -4,10 +4,11 @@
 *.fish
 *.csh
 *.pyc
-./bin
-./lib
-./include
+bin/
+lib/
+include/
 *.py
 *.txt
 *.typed
 *.pem
+pyvenv.cfg
